@@ -1,0 +1,12 @@
+fieldset,
+#submit-botton {
+  margin: 20px;
+}
+
+label {
+  margin: 10px;
+}
+
+input:focus {
+  background-color: rgb(220, 220, 220);
+}
