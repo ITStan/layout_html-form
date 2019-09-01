@@ -5,6 +5,11 @@ fieldset,
 
 label {
   margin: 10px;
+  display: block;
+}
+
+.cats {
+  display: inline;
 }
 
 input:focus {
