@@ -1,17 +1,16 @@
-fieldset,
-#submit-botton {
-  margin: 20px;
-}
-
-label {
-  margin: 10px;
+.label {
   display: block;
+  margin-bottom: 10px;
 }
 
-.cats {
+.field > label:last-child {
+  margin-bottom: 0;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.cats > label {
   display: inline;
-}
-
-input:focus {
-  background-color: rgb(220, 220, 220);
 }
